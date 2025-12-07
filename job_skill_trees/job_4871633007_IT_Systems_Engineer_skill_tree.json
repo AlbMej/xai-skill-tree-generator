@@ -1,0 +1,39 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "Python",
+              "type": "skill"
+            },
+            {
+              "name": "R",
+              "type": "skill"
+            }
+          ]
+        },
+        {
+          "name": "Tools",
+          "children": [
+            {
+              "name": "CI/CD",
+              "type": "skill"
+            },
+            {
+              "name": "Linux",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4871633007,
+  "job_title": "IT Systems Engineer",
+  "location": "Bastrop, TX; New York, NY; Palo Alto, CA; San Jose, CA"
+}

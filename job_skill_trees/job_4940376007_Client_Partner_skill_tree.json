@@ -1,0 +1,44 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "Go",
+              "type": "skill"
+            },
+            {
+              "name": "R",
+              "type": "skill"
+            }
+          ]
+        },
+        {
+          "name": "Frameworks",
+          "children": [
+            {
+              "name": "Express",
+              "type": "skill"
+            }
+          ]
+        },
+        {
+          "name": "Tools",
+          "children": [
+            {
+              "name": "Git",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4940376007,
+  "job_title": "Client Partner",
+  "location": "Los Angeles, CA; New York, NY"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "Python",
+              "type": "skill"
+            },
+            {
+              "name": "Go",
+              "type": "skill"
+            },
+            {
+              "name": "R",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4975129007,
+  "job_title": "Member of Technical Staff, Video Generation - Agent, RL",
+  "location": "Palo Alto, CA"
+}

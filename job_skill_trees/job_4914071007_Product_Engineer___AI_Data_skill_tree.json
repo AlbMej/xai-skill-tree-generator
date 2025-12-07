@@ -1,0 +1,26 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "Go",
+              "type": "skill"
+            },
+            {
+              "name": "R",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4914071007,
+  "job_title": "Product Engineer - AI Data",
+  "location": "Palo Alto, CA"
+}

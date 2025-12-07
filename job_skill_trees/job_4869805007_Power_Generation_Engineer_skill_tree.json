@@ -1,0 +1,26 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "Go",
+              "type": "skill"
+            },
+            {
+              "name": "R",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4869805007,
+  "job_title": "Power Generation Engineer",
+  "location": "Memphis, TN"
+}

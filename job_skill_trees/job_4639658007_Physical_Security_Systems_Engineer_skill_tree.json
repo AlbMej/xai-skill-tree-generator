@@ -1,0 +1,22 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "R",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4639658007,
+  "job_title": "Physical Security Systems Engineer",
+  "location": "Memphis, TN"
+}

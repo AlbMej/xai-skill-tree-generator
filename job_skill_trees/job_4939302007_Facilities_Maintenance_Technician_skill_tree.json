@@ -1,0 +1,22 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "R",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4939302007,
+  "job_title": "Facilities Maintenance Technician",
+  "location": "Memphis, TN"
+}

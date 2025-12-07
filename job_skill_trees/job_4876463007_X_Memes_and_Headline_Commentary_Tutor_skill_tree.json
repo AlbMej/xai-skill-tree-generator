@@ -1,0 +1,22 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "R",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4876463007,
+  "job_title": "X Memes and Headline Commentary Tutor",
+  "location": "Palo Alto, CA; Remote"
+}

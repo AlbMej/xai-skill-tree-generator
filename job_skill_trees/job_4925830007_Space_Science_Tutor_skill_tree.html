@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skill Tree Visualization</title>
+    <title>Required Skills: Space Science Tutor</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
         body {
@@ -57,6 +57,14 @@
             fill: #FF9800;
             stroke: #F57C00;
         }
+        .node--qualification circle {
+            fill: #2196F3;
+            stroke: #1976D2;
+        }
+        .node--requirement circle {
+            fill: #F44336;
+            stroke: #D32F2F;
+        }
         .node text {
             font: 14px sans-serif;
             font-weight: 500;
@@ -100,7 +108,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>🌳 Skill Tree Visualization</h1>
+        <h1>Required Skills: Space Science Tutor</h1>
         <div class="controls">
             <button onclick="zoomIn()">Zoom In</button>
             <button onclick="zoomOut()">Zoom Out</button>
@@ -123,92 +131,17 @@
           "name": "Programming Languages",
           "children": [
             {
-              "name": "Python",
-              "type": "skill"
-            },
-            {
-              "name": "JavaScript",
-              "type": "skill"
-            },
-            {
-              "name": "Java",
-              "type": "skill"
-            },
-            {
-              "name": "Go",
-              "type": "skill"
-            },
-            {
-              "name": "TypeScript",
-              "type": "skill"
-            },
-            {
-              "name": "SQL",
-              "type": "skill"
-            },
-            {
               "name": "R",
-              "type": "skill"
-            }
-          ]
-        },
-        {
-          "name": "Frameworks",
-          "children": [
-            {
-              "name": "React",
-              "type": "skill"
-            },
-            {
-              "name": "Django",
-              "type": "skill"
-            },
-            {
-              "name": "Flask",
-              "type": "skill"
-            },
-            {
-              "name": "FastAPI",
-              "type": "skill"
-            },
-            {
-              "name": "PyTorch",
-              "type": "skill"
-            }
-          ]
-        },
-        {
-          "name": "Tools",
-          "children": [
-            {
-              "name": "Git",
-              "type": "skill"
-            },
-            {
-              "name": "Docker",
-              "type": "skill"
-            },
-            {
-              "name": "AWS",
-              "type": "skill"
-            },
-            {
-              "name": "Azure",
-              "type": "skill"
-            },
-            {
-              "name": "Linux",
-              "type": "skill"
-            },
-            {
-              "name": "PostgreSQL",
               "type": "skill"
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "job_id": 4925830007,
+  "job_title": "Space Science Tutor",
+  "location": "Remote"
 };
         
         let svg, g, zoom, root, tooltip;
@@ -257,7 +190,13 @@
             
             const nodeEnter = node.enter()
                 .append("g")
-                .attr("class", d => "node " + (d.children ? "node--internal" : d.data.type === "certification" ? "node--certification" : "node--leaf"))
+                .attr("class", d => {
+                    if (d.children) return "node node--internal";
+                    if (d.data.type === "certification") return "node node--certification";
+                    if (d.data.type === "qualification") return "node node--qualification";
+                    if (d.data.type === "requirement") return "node node--requirement";
+                    return "node node--leaf";
+                })
                 .attr("transform", d => `translate(${source.y0},${source.x0})`)
                 .on("click", (event, d) => {
                     if (d.children) {
@@ -284,6 +223,8 @@
                 .style("fill", d => {
                     if (d.depth === 0) return "#667eea";
                     if (d.data.type === "certification") return "#FF9800";
+                    if (d.data.type === "qualification") return "#2196F3";
+                    if (d.data.type === "requirement") return "#F44336";
                     return d.children ? "#764ba2" : "#4CAF50";
                 });
             

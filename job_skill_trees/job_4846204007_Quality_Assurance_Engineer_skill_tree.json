@@ -1,0 +1,67 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "Python",
+              "type": "skill"
+            },
+            {
+              "name": "JavaScript",
+              "type": "skill"
+            },
+            {
+              "name": "Java",
+              "type": "skill"
+            },
+            {
+              "name": "Go",
+              "type": "skill"
+            },
+            {
+              "name": "Rust",
+              "type": "skill"
+            },
+            {
+              "name": "R",
+              "type": "skill"
+            },
+            {
+              "name": "Swift",
+              "type": "skill"
+            },
+            {
+              "name": "Kotlin",
+              "type": "skill"
+            }
+          ]
+        },
+        {
+          "name": "Tools",
+          "children": [
+            {
+              "name": "Git",
+              "type": "skill"
+            },
+            {
+              "name": "Jenkins",
+              "type": "skill"
+            },
+            {
+              "name": "CI/CD",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4846204007,
+  "job_title": "Quality Assurance Engineer",
+  "location": "Palo Alto, CA; San Francisco, CA"
+}

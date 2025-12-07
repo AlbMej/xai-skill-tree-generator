@@ -1,0 +1,26 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "Go",
+              "type": "skill"
+            },
+            {
+              "name": "R",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4940191007,
+  "job_title": "Frontend Engineer / Design Engineer - US Government",
+  "location": "Palo Alto, CA; San Francisco, CA"
+}

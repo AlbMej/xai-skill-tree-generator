@@ -1,0 +1,38 @@
+{
+  "name": "Skills",
+  "children": [
+    {
+      "name": "Technical Skills",
+      "children": [
+        {
+          "name": "Programming Languages",
+          "children": [
+            {
+              "name": "Java",
+              "type": "skill"
+            },
+            {
+              "name": "Go",
+              "type": "skill"
+            },
+            {
+              "name": "R",
+              "type": "skill"
+            },
+            {
+              "name": "Swift",
+              "type": "skill"
+            },
+            {
+              "name": "Kotlin",
+              "type": "skill"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_id": 4809222007,
+  "job_title": "Software Engineer, X Chat",
+  "location": "Palo Alto, CA"
+}

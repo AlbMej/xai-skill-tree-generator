@@ -93,8 +93,8 @@ class XAIJobFetcher:
             'internal_job_id': job.get('internal_job_id'),
         }
         
-        # Fetch detailed information if requested
-        if include_details and job.get('id'):
+        # Fetch detailed information if requested or if description is missing
+        if (include_details or not parsed.get('description')) and job.get('id'):
             details = self.fetch_job_details(job['id'])
             if details:
                 # Decode HTML entities in description
